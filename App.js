@@ -12,6 +12,13 @@ import React from "react";
 import { View,Button, Text } from "react-native";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
+import Icon from 'react-native-vector-icons/FontAwesome';
+const myButton = (
+  <Icon.Button name="facebook" backgroundColor="#3b5998" onPress={this.loginWithFacebook}>
+    Login with Facebook
+  </Icon.Button>
+);
+
 class HomeScreen extends React.Component {
   render() {
     return (
@@ -20,7 +27,9 @@ class HomeScreen extends React.Component {
         <Button title="Go to Details"
         onPress={() => this.props.navigation.navigate('Detail')}
         />
-      
+       <Icon.Button name="facebook" backgroundColor="#3b5998">
+    Login with Facebook
+  </Icon.Button>
       </View>
     );
   }
