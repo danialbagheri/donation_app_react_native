@@ -11,6 +11,8 @@
 import React from "react";
 import { View,Button, Text } from "react-native";
 import { createStackNavigator, createAppContainer } from "react-navigation";
+import { createStore } from 'redux'
+
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 const myButton = (
