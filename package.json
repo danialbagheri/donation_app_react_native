@@ -1,5 +1,5 @@
 {
-  "name": "bloksphere",
+  "name": "donate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "apisauce": "^1.0.2",
     "react": "16.6.3",
-    "react-native": "0.58.4",
+    "react-native": "^0.59.1",
     "react-native-fast-image": "^5.1.2",
     "react-native-gesture-handler": "^1.0.15",
     "react-native-splash-screen": "^3.2.0",
