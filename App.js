@@ -12,6 +12,7 @@ import React from "react";
 import { View,Button, Text } from "react-native";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import { createStore } from 'redux'
+import LoginScreen  from './features/login/LoginScreen'
 
 
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -63,11 +64,12 @@ class DetailScreen extends React.Component {
 
 const AppNavigator = createStackNavigator(
   {
+    Login:LoginScreen,
     Home: HomeScreen,
     Detail:DetailScreen
   },
   {
-    initialRouteName: "Home",
+    initialRouteName: "Login",
   }
 );
 
