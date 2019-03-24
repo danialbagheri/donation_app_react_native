@@ -1,5 +1,4 @@
-# bloksphere-mobile-app
-A social media app for pharmacists
+# donation_app_react_native
 
 
 1-if you didn't set up react-native before, first of all please install dependencies from [facebook.github.io](https://facebook.github.io/react-native/docs/getting-started.html)
